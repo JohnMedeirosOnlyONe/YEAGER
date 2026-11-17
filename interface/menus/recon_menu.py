@@ -27,23 +27,23 @@ def menu_tools_recon():
 
             if options == "[1] - (Whois)":
                 sleep(0.5)
-                pass
+                print("Em desenvolvimento")
 
             elif options == "[2] - (Dig)":
                 sleep(0.5)
-                pass
+                print("Em desenvolvimento")
 
             elif options == "[3] - (Dns Enumaration)":
                 sleep(0.5)
-                pass
+                print("Em desenvolvimento")
 
             elif options == "[4] - (Subfinder)":
                 sleep(0.5)
-                pass
+                print("Em desenvolvimento")
 
             elif options == "[5] - (WhatWeb)":
                 sleep(0.5)
-                pass
+                print("Em desenvolvimento")
 
             else:
                 sleep(0.5)
