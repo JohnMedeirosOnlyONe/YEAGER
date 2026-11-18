@@ -27,29 +27,34 @@ def menu_tools_recon():
 
             if options == "[1] - (Whois)":
                 sleep(0.5)
-                print("Em desenvolvimento")
+                from interface.screens.recon.whois_screen import menu_whois_model
+                menu_whois_model()
 
             elif options == "[2] - (Dig)":
                 sleep(0.5)
-                print("Em desenvolvimento")
+                from interface.screens.recon.dig_screen import menu_dig_model
+                menu_dig_model()
 
             elif options == "[3] - (Dns Enumaration)":
                 sleep(0.5)
-                print("Em desenvolvimento")
+                from interface.screens.recon.dns_screen import menu_dns_enumaration_model
+                menu_dns_enumaration_model()
 
             elif options == "[4] - (Subfinder)":
                 sleep(0.5)
-                print("Em desenvolvimento")
+                from interface.screens.recon.subfinder_screen import menu_subfinder_model
+                menu_subfinder_model()
 
             elif options == "[5] - (WhatWeb)":
                 sleep(0.5)
-                print("Em desenvolvimento")
+                from interface.screens.web.whatweb_screen import menu_whatweb_model
+                menu_whatweb_model()
 
             else:
                 sleep(0.5)
                 return
 
     except Exception as error:
+        sleep(0.5)
         console.print(f"[bold red]AN ERROR OCCURRED IN THE MENU: {error}[/bold red]")
-        sleep(1)
         return
