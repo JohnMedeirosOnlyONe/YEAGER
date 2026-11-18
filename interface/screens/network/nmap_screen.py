@@ -67,8 +67,6 @@ def menu_nmap_model():
             # from exemplo.exmplo import exemplo
 
         else:
-            sleep(1)
-            console.print("[bold red]Returning to the menu.[/bold red]")
             return
 
     except Exception as error:
